@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Calendar, Clock, FileAudio, CheckSquare, ChevronRight } from 'lucide-react'
-import { cn, formatDuration, formatRelativeTime, getStatusColor } from '../lib/utils'
+import { Calendar, Clock, CheckSquare, ChevronRight } from 'lucide-react'
+import { formatDuration, formatRelativeTime, getStatusColor } from '../lib/utils'
 
 interface Meeting {
   id: string

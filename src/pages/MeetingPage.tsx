@@ -5,7 +5,6 @@ import {
   ArrowLeft,
   FileText,
   ListChecks,
-  Trash2,
   Send,
   CheckCircle,
 } from 'lucide-react'

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Filter, CheckSquare } from 'lucide-react'
+import { CheckSquare } from 'lucide-react'
 import { tasksAPI } from '../lib/api'
 import TaskCard from '../components/TaskCard'
 import toast from 'react-hot-toast'

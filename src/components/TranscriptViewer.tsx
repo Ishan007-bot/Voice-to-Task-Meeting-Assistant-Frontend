@@ -67,7 +67,7 @@ export default function TranscriptViewer({
         <div className="card p-4 mb-6">
           <h4 className="text-sm font-medium text-navy-300 mb-3">Speakers</h4>
           <div className="flex flex-wrap gap-2">
-            {Array.from(speakers.entries()).map(([label, index]) => {
+            {Array.from(speakers.entries()).map(([label]) => {
               const segment = segments.find((s) => s.speaker_label === label)
               const displayName = segment?.speaker_name || label
 

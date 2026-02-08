@@ -4,7 +4,7 @@ import { Loader2, CheckCircle, XCircle, FileAudio, Brain, ListChecks } from 'luc
 import { cn } from '../lib/utils'
 
 interface ProcessingStatusProps {
-  meetingId: string
+  meetingId?: string
   status: string
   message?: string
   progress: number
@@ -20,7 +20,6 @@ const STEPS = [
 ]
 
 export default function ProcessingStatus({
-  meetingId,
   status,
   message,
   progress,

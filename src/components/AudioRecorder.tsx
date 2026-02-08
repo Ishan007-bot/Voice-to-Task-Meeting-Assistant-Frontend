@@ -22,7 +22,7 @@ export default function AudioRecorder({
   const analyserRef = useRef<AnalyserNode | null>(null)
   const chunksRef = useRef<Blob[]>([])
   const animationFrameRef = useRef<number>()
-  const timerRef = useRef<NodeJS.Timeout>()
+  const timerRef = useRef<ReturnType<typeof setInterval>>()
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const visualize = useCallback(() => {
